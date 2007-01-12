@@ -21,7 +21,7 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.23-2
-  autoconf2.5-2.60-2
+  autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
   gawk-3.1.5-4
@@ -40,15 +40,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack revelation-0.4.8-X-src.tar.bz2
+  unpack revelation-0.4.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./revelation-0.4.8-X.cygport all
+  cygport ./revelation-0.4.9-X.cygport all
 
 This will create:
-  /usr/src/revelation-0.4.8-X-src.tar.bz2
-  /usr/src/revelation-0.4.8-X.tar.bz2
+  /usr/src/revelation-0.4.9-X-src.tar.bz2
+  /usr/src/revelation-0.4.9-X.tar.bz2
 
 -------------------------------------------
 
@@ -130,14 +130,14 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/revelation/util.pyc
   /usr/lib/python2.4/site-packages/revelation/util.pyo
   /usr/share/applications/revelation.desktop
-  /usr/share/doc/Cygwin/revelation-0.4.8.README
-  /usr/share/doc/revelation-0.4.8/AUTHORS
-  /usr/share/doc/revelation-0.4.8/COPYING
-  /usr/share/doc/revelation-0.4.8/ChangeLog
-  /usr/share/doc/revelation-0.4.8/INSTALL
-  /usr/share/doc/revelation-0.4.8/NEWS
-  /usr/share/doc/revelation-0.4.8/README
-  /usr/share/doc/revelation-0.4.8/TODO
+  /usr/share/doc/Cygwin/revelation-0.4.9.README
+  /usr/share/doc/revelation-0.4.9/AUTHORS
+  /usr/share/doc/revelation-0.4.9/COPYING
+  /usr/share/doc/revelation-0.4.9/ChangeLog
+  /usr/share/doc/revelation-0.4.9/INSTALL
+  /usr/share/doc/revelation-0.4.9/NEWS
+  /usr/share/doc/revelation-0.4.9/README
+  /usr/share/doc/revelation-0.4.9/TODO
   /usr/share/icons/hicolor/16x16/apps/revelation.png
   /usr/share/icons/hicolor/24x24/apps/revelation-locked.png
   /usr/share/icons/hicolor/24x24/apps/revelation.png
@@ -161,6 +161,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.4.9-1 -----
+Version bump.
 
 ----- version 0.4.8-1 -----
 Version bump.

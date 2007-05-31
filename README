@@ -6,21 +6,21 @@ secure place, and gives access to them through a user-friendly graphical
 interface.
 
 Runtime requirements:
-  cygwin-1.5.23-2
-  libcrack2-2.8.9-1
-  pybonobo2-2.16.2-1
-  pycrypto-2.0.1-1
-  pygconf2-2.16.2-1
-  pygnome2-2.16.2-1
-  pygnomeapplet-2.16.0-1
-  pygnomevfs2-2.16.2-1
-  pygobject2-2.12.3-1
-  pygtk2-2.10.3-1
-  python-2.4.3-1
+  cygwin-1.5.24-2
+  libcrack2-2.8.10-1
+  python-2.5.1-1
+  python-bonobo2-2.18.2-1
+  python-crypto-2.0.1-2
+  python-gconf2-2.18.2-1
+  python-gnome2-2.18.2-1
+  python-gnomeapplet-2.18.0-1
+  python-gnomevfs2-2.18.2-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
@@ -61,74 +61,74 @@ Files included in the binary package:
   /usr/bin/revelation
   /usr/lib/bonobo/servers/GNOME_RevelationApplet.server
   /usr/lib/panel-2.0/revelation-applet
-  /usr/lib/python2.4/site-packages/revelation/__init__.py
-  /usr/lib/python2.4/site-packages/revelation/__init__.pyc
-  /usr/lib/python2.4/site-packages/revelation/__init__.pyo
-  /usr/lib/python2.4/site-packages/revelation/bundle/AfSplitter.py
-  /usr/lib/python2.4/site-packages/revelation/bundle/AfSplitter.pyc
-  /usr/lib/python2.4/site-packages/revelation/bundle/AfSplitter.pyo
-  /usr/lib/python2.4/site-packages/revelation/bundle/PBKDFv2.py
-  /usr/lib/python2.4/site-packages/revelation/bundle/PBKDFv2.pyc
-  /usr/lib/python2.4/site-packages/revelation/bundle/PBKDFv2.pyo
-  /usr/lib/python2.4/site-packages/revelation/bundle/__init__.py
-  /usr/lib/python2.4/site-packages/revelation/bundle/__init__.pyc
-  /usr/lib/python2.4/site-packages/revelation/bundle/__init__.pyo
-  /usr/lib/python2.4/site-packages/revelation/bundle/luks.py
-  /usr/lib/python2.4/site-packages/revelation/bundle/luks.pyc
-  /usr/lib/python2.4/site-packages/revelation/bundle/luks.pyo
-  /usr/lib/python2.4/site-packages/revelation/config.py
-  /usr/lib/python2.4/site-packages/revelation/config.pyc
-  /usr/lib/python2.4/site-packages/revelation/config.pyo
-  /usr/lib/python2.4/site-packages/revelation/crack.dll
-  /usr/lib/python2.4/site-packages/revelation/crack.la
-  /usr/lib/python2.4/site-packages/revelation/data.py
-  /usr/lib/python2.4/site-packages/revelation/data.pyc
-  /usr/lib/python2.4/site-packages/revelation/data.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/__init__.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/__init__.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/__init__.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/base.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/base.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/base.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/fpm.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/fpm.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/fpm.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/gpass.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/gpass.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/gpass.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/netrc.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/netrc.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/netrc.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/pwsafe.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/pwsafe.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/pwsafe.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/rvl.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/rvl.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/rvl.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/splashid.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/splashid.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/splashid.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/text.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/text.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/text.pyo
-  /usr/lib/python2.4/site-packages/revelation/datahandler/xhtml.py
-  /usr/lib/python2.4/site-packages/revelation/datahandler/xhtml.pyc
-  /usr/lib/python2.4/site-packages/revelation/datahandler/xhtml.pyo
-  /usr/lib/python2.4/site-packages/revelation/dialog.py
-  /usr/lib/python2.4/site-packages/revelation/dialog.pyc
-  /usr/lib/python2.4/site-packages/revelation/dialog.pyo
-  /usr/lib/python2.4/site-packages/revelation/entry.py
-  /usr/lib/python2.4/site-packages/revelation/entry.pyc
-  /usr/lib/python2.4/site-packages/revelation/entry.pyo
-  /usr/lib/python2.4/site-packages/revelation/io.py
-  /usr/lib/python2.4/site-packages/revelation/io.pyc
-  /usr/lib/python2.4/site-packages/revelation/io.pyo
-  /usr/lib/python2.4/site-packages/revelation/ui.py
-  /usr/lib/python2.4/site-packages/revelation/ui.pyc
-  /usr/lib/python2.4/site-packages/revelation/ui.pyo
-  /usr/lib/python2.4/site-packages/revelation/util.py
-  /usr/lib/python2.4/site-packages/revelation/util.pyc
-  /usr/lib/python2.4/site-packages/revelation/util.pyo
+  /usr/lib/python2.5/site-packages/revelation/__init__.py
+  /usr/lib/python2.5/site-packages/revelation/__init__.pyc
+  /usr/lib/python2.5/site-packages/revelation/__init__.pyo
+  /usr/lib/python2.5/site-packages/revelation/bundle/AfSplitter.py
+  /usr/lib/python2.5/site-packages/revelation/bundle/AfSplitter.pyc
+  /usr/lib/python2.5/site-packages/revelation/bundle/AfSplitter.pyo
+  /usr/lib/python2.5/site-packages/revelation/bundle/PBKDFv2.py
+  /usr/lib/python2.5/site-packages/revelation/bundle/PBKDFv2.pyc
+  /usr/lib/python2.5/site-packages/revelation/bundle/PBKDFv2.pyo
+  /usr/lib/python2.5/site-packages/revelation/bundle/__init__.py
+  /usr/lib/python2.5/site-packages/revelation/bundle/__init__.pyc
+  /usr/lib/python2.5/site-packages/revelation/bundle/__init__.pyo
+  /usr/lib/python2.5/site-packages/revelation/bundle/luks.py
+  /usr/lib/python2.5/site-packages/revelation/bundle/luks.pyc
+  /usr/lib/python2.5/site-packages/revelation/bundle/luks.pyo
+  /usr/lib/python2.5/site-packages/revelation/config.py
+  /usr/lib/python2.5/site-packages/revelation/config.pyc
+  /usr/lib/python2.5/site-packages/revelation/config.pyo
+  /usr/lib/python2.5/site-packages/revelation/crack.dll
+  /usr/lib/python2.5/site-packages/revelation/crack.la
+  /usr/lib/python2.5/site-packages/revelation/data.py
+  /usr/lib/python2.5/site-packages/revelation/data.pyc
+  /usr/lib/python2.5/site-packages/revelation/data.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/__init__.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/__init__.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/__init__.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/base.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/base.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/base.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/fpm.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/fpm.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/fpm.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/gpass.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/gpass.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/gpass.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/netrc.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/netrc.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/netrc.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/pwsafe.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/pwsafe.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/pwsafe.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/rvl.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/rvl.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/rvl.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/splashid.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/splashid.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/splashid.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/text.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/text.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/text.pyo
+  /usr/lib/python2.5/site-packages/revelation/datahandler/xhtml.py
+  /usr/lib/python2.5/site-packages/revelation/datahandler/xhtml.pyc
+  /usr/lib/python2.5/site-packages/revelation/datahandler/xhtml.pyo
+  /usr/lib/python2.5/site-packages/revelation/dialog.py
+  /usr/lib/python2.5/site-packages/revelation/dialog.pyc
+  /usr/lib/python2.5/site-packages/revelation/dialog.pyo
+  /usr/lib/python2.5/site-packages/revelation/entry.py
+  /usr/lib/python2.5/site-packages/revelation/entry.pyc
+  /usr/lib/python2.5/site-packages/revelation/entry.pyo
+  /usr/lib/python2.5/site-packages/revelation/io.py
+  /usr/lib/python2.5/site-packages/revelation/io.pyc
+  /usr/lib/python2.5/site-packages/revelation/io.pyo
+  /usr/lib/python2.5/site-packages/revelation/ui.py
+  /usr/lib/python2.5/site-packages/revelation/ui.pyc
+  /usr/lib/python2.5/site-packages/revelation/ui.pyo
+  /usr/lib/python2.5/site-packages/revelation/util.py
+  /usr/lib/python2.5/site-packages/revelation/util.pyc
+  /usr/lib/python2.5/site-packages/revelation/util.pyo
   /usr/share/applications/revelation.desktop
   /usr/share/doc/Cygwin/revelation-0.4.11.README
   /usr/share/doc/revelation-0.4.11/AUTHORS
@@ -161,6 +161,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.4.11-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.4.11-1 -----
 Version bump.

@@ -1,0 +1,16 @@
+inherit python gnome2
+
+DESCRIPTION="GNOME password manager"
+HOMEPAGE="http://oss.codepoet.no/revelation/"
+SRC_URI=ftp://oss.codepoet.no/revelation/${P}.tar.bz2
+
+DIFF_EXCLUDES="config.py crack.c"
+
+src_compile() {
+	cd ${S}
+	rm -f src/lib/config.py src/wrap/crack/crack.c
+	gnome2_autoreconf
+	cd ${B}
+	gnome2_compile --libexecdir=/usr/lib/panel-2.0 --disable-desktop-update \
+		--disable-mime-update
+}

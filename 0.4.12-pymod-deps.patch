@@ -1,0 +1,12 @@
+0.4.12 no longer requires 'gnome'
+
+--- origsrc/revelation-0.4.12/configure.ac	2011-11-14 13:47:16.454608200 -0600
++++ src/revelation-0.4.12/configure.ac	2011-11-14 14:00:48.133033500 -0600
+@@ -25,7 +25,6 @@ RVL_FDO_MIME()
+ RVL_PYTHON_MODULE(Crypto, yes)
+ RVL_PYTHON_MODULE(gconf, yes)
+ RVL_PYTHON_MODULE(gtk, yes)
+-RVL_PYTHON_MODULE(gnome, yes)
+ RVL_PYTHON_MODULE(gio, yes)
+ RVL_PYTHON_MODULE(gobject, yes)
+ RVL_PYTHON_MODULE(pango, yes)

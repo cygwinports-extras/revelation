@@ -1,5 +1,5 @@
 category: Gnome
-requires: libcrack2 python python-crypto python-dbus python-gconf2 python-gobject python-gtk2.0
+requires: GConf2 python python-cracklib python-crypto python-dbus python-gconf2 python-gobject python-gtk2.0
 sdesc: "GNOME password manager"
 ldesc: "Revelation is a password manager for the GNOME 2 desktop, released under
 the GNU GPL license. It stores accounts and passwords in a single,

@@ -4,12 +4,19 @@ DESCRIPTION="GNOME password manager"
 HOMEPAGE="http://oss.codepoet.no/revelation/"
 SRC_URI="http://oss.codepoet.no/revelation/downloads/${P}.tar.bz2"
 PATCH_URI="
-	0.4.11-libtool.patch
 	0.4.12-pymod-deps.patch
 	0.4.11-vpath.patch
 "
 
-DISTCLEANFILES="src/lib/config.py src/wrap/crack/crack.c"
+DEPEND="gnome-common
+	pkgconfig(pygtk-2.0)
+	python(Crypto)
+	python(cracklib)
+	python(dbus)
+	python(gconf)
+"
+
+DISTCLEANFILES="src/lib/config.py"
 CYGCONF_ARGS="
 	--disable-desktop-update
 	--disable-mime-update

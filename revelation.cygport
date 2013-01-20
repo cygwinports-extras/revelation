@@ -1,6 +1,13 @@
 inherit python gnome2
 
-DESCRIPTION="GNOME password manager"
+NAME="revelation"
+VERSION=0.4.14
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GNOME password manager"
+DESCRIPTION="Revelation is a password manager for the GNOME 2 desktop, released
+under the GNU GPL license. It stores accounts and passwords in a single, secure
+place, and gives access to them through a user-friendly graphical interface."
 HOMEPAGE="http://oss.codepoet.no/revelation/"
 SRC_URI="http://oss.codepoet.no/revelation/downloads/${P}.tar.bz2"
 PATCH_URI="
